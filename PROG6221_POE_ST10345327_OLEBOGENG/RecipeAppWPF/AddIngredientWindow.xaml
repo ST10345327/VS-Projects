@@ -1,0 +1,15 @@
+<Window x:Class="RecipeAppWPF.AddIngredientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Ingredient" Height="300" Width="300">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox x:Name="IngredientNameTextBox" PlaceholderText="Ingredient Name" Margin="5"/>
+            <TextBox x:Name="QuantityTextBox" PlaceholderText="Quantity" Margin="5"/>
+            <TextBox x:Name="UnitTextBox" PlaceholderText="Unit" Margin="5"/>
+            <TextBox x:Name="CaloriesTextBox" PlaceholderText="Calories" Margin="5"/>
+            <TextBox x:Name="FoodGroupTextBox" PlaceholderText="Food Group" Margin="5"/>
+            <Button x:Name="SaveIngredientButton" Content="Save Ingredient" Click="SaveIngredientButton_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

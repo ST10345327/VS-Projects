@@ -1,0 +1,32 @@
+<Window x:Class="RecipeAppWPF.AddRecipeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Recipe" Height="450" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- StackPanel for recipe input fields -->
+        <StackPanel Margin="10">
+            <TextBox x:Name="RecipeNameTextBox" PlaceholderText="Recipe Name" Margin="5"/>
+            <Button x:Name="AddIngredientButton" Content="Add Ingredient" Click="AddIngredientButton_Click" Margin="5"/>
+            <Button x:Name="AddStepButton" Content="Add Step" Click="AddStepButton_Click" Margin="5"/>
+            <Button x:Name="SaveRecipeButton" Content="Save Recipe" Click="SaveRecipeButton_Click" Margin="5"/>
+        </StackPanel>
+
+        <!-- ListView to display added ingredients -->
+        <ListView x:Name="IngredientsListView" Grid.Row="1" Margin="10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="100"/>
+                    <GridViewColumn Header="Quantity" DisplayMemberBinding="{Binding Quantity}" Width="50"/>
+                    <GridViewColumn Header="Unit" DisplayMemberBinding="{Binding Unit}" Width="50"/>
+                    <GridViewColumn Header="Calories" DisplayMemberBinding="{Binding Calories}" Width="50"/>
+                    <GridViewColumn Header="Food Group" DisplayMemberBinding="{Binding FoodGroup}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

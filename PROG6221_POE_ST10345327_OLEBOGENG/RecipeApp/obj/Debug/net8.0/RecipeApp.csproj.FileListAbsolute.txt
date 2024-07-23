@@ -1,0 +1,4 @@
+c:\Users\CASH\Desktop\VS Projects\.vscode\Ticket_Sales\RecipeApp\obj\Debug\net8.0\RecipeApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\CASH\Desktop\VS Projects\.vscode\Ticket_Sales\RecipeApp\obj\Debug\net8.0\RecipeApp.AssemblyInfoInputs.cache
+c:\Users\CASH\Desktop\VS Projects\.vscode\Ticket_Sales\RecipeApp\obj\Debug\net8.0\RecipeApp.AssemblyInfo.cs
+c:\Users\CASH\Desktop\VS Projects\.vscode\Ticket_Sales\RecipeApp\obj\Debug\net8.0\RecipeApp.csproj.CoreCompileInputs.cache

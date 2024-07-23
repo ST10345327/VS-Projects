@@ -1,0 +1,24 @@
+using NUnit.Framework;
+using RecipeApp;
+
+namespace RecipeApp.Tests
+{
+    public class IngredientTests
+    {
+        [Test]
+        public void EnterDetails_ShouldSetPropertiesCorrectly()
+        {
+            // Arrange
+            var ingredient = new Ingredient();
+
+            // Act
+            ingredient.EnterDetails();
+
+            // Assert
+            Assert.IsNotNullOrEmpty(ingredient.Name);
+            Assert.Greater(ingredient.Quantity, 0);
+            Assert.IsNotNullOrEmpty(ingredient.Unit);
+            Assert.Greater(ingredient.Calories, 0);
+        }
+    }
+}

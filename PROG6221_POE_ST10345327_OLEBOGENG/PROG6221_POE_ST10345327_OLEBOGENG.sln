@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeApp", "RecipeApp\RecipeApp.csproj", "{69B9E228-3F7C-4362-806B-FC7EBF6246F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecipeApp (1)", "RecipeApp", "{652F8636-FF92-41AE-9BB1-9E9232DB9D21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeApp.Tests", "RecipeApp\RecipeApp.Tests\RecipeApp.Tests.csproj", "{8910D21D-8225-4D1D-A9A0-A337C69E40FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B9E228-3F7C-4362-806B-FC7EBF6246F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B9E228-3F7C-4362-806B-FC7EBF6246F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B9E228-3F7C-4362-806B-FC7EBF6246F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B9E228-3F7C-4362-806B-FC7EBF6246F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8910D21D-8225-4D1D-A9A0-A337C69E40FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8910D21D-8225-4D1D-A9A0-A337C69E40FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8910D21D-8225-4D1D-A9A0-A337C69E40FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8910D21D-8225-4D1D-A9A0-A337C69E40FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8910D21D-8225-4D1D-A9A0-A337C69E40FD} = {652F8636-FF92-41AE-9BB1-9E9232DB9D21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92D785F1-823E-4E84-BAA5-D9937DAFBE28}
+	EndGlobalSection
+EndGlobal

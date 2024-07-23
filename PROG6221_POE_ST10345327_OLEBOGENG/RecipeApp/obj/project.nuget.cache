@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NEBQBvLEL8p0rxtS5f+vrh8bOeoEOMFeaxjDU1rZsuEEk3mQ5n2L1417yp8bcT5FCKkEQ79uFvr4zirFJNfsPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CASH\\Desktop\\VS Projects\\.vscode\\Ticket_Sales\\RecipeApp\\RecipeApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CASH\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
